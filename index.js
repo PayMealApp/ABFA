@@ -1,4 +1,4 @@
-const stripeSecretKey = "sk_test_51HNabPCinksNdU0O94JTnu59hF0R9saY1Mva7Z6OpwQHLfZ5v74e5EYx2rzwUsL3GnLi8CGeFgAVeg0p085bFVWZ00tcnkT6Xz";
+const stripeSecretKey = "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";
 const stripe = require("stripe")(stripeSecretKey);
 
 // BASE SETUP
